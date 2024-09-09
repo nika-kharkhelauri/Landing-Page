@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .links {
+    @apply p-[10px] text-center font-nino text-[16px] font-normal text-[#000];
+  }
+
+  .book-container {
+    @apply flex items-center gap-x-[8px];
+  }
+
+  .description-paragraph {
+    @apply font-geo;
+    background: linear-gradient(90deg, #286ad3 0%, #248f8b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .education-system-header {
+    @apply font-geo;
+    background: linear-gradient(180deg, #2662d6 0%, #3db8b1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .system-button {
+    @apply font-geo;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background: linear-gradient(90deg, #2662d6 0%, #002241 100%);
+  }
+
+  .experts-header {
+    @apply font-geo;
+    background: linear-gradient(180deg, #2d67d8 0%, #00aef8 89.13%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .expert-container {
+    @apply flex h-[355px] w-[302px] flex-col items-center justify-center bg-expertContainerBackground;
+  }
+
+  .direction {
+    @apply h-[40px] w-[40px];
+  }
+
+  .course-header {
+    @apply font-geo;
+    background: linear-gradient(90deg, #2763d6 0%, #0d2e6a 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .rectangle-div {
+    @apply h-[63px] w-[745px] rounded-t-[30px] rounded-tr-[30px] bg-rectangleBackground bg-cover bg-fixed bg-center bg-no-repeat;
+    clip-path: polygon(7% 3%, 100% 0%, 100% 100%, 0 100%);
+  }
+
+  .about-course-div {
+    @apply flex w-[194px] flex-col items-center justify-end rounded-[30px] bg-backColor p-[35px_28px_20px_29px];
+  }
+  .about-course-div > img {
+    @apply h-[50px] w-[50px];
+  }
+
+  .about-course-div > p {
+    @apply mt-[40px] w-[100%] text-center font-geo text-[12px] font-black;
+    background: linear-gradient(90deg, #2662d6 0%, #1b5350 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .about-course-div > button {
+    @apply mt-[54px] rounded-[30px] bg-black p-[12px_28px] text-center font-geo text-[10px] font-black text-[#fff];
+    background: linear-gradient(90deg, #2662d6 0%, #002241 100%);
+  }
+
+  .question-header {
+    @apply font-geo;
+    background: linear-gradient(0deg, #2662d6 21.74%, #3db8b1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .question-div {
+    @apply flex w-[100%] items-center justify-between rounded-[30px] border-[1.5px] border-solid border-[#2662D6] p-[24px_30px];
+  }
+
+  .question-div > p {
+    @apply font-geo text-[16px] font-black leading-[36px];
+    background: linear-gradient(90deg, #2662d6 0%, #2f847f 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .question-div > img {
+    @apply h-[10px] w-[16px] cursor-pointer;
+  }
+
+  .news-paragraph {
+    @apply w-[141.6px] text-[24px] font-normal text-[#000];
+    text-shadow: 12px 12px 15.6px rgba(0, 0, 0, 0.25);
+  }
+
+  .input-button {
+    @apply font-geo;
+    background: linear-gradient(90deg, #3edad0 0%, #002241 100%);
+  }
+
+  .information-divs {
+    @apply flex flex-col items-start gap-[12px];
+  }
+
+  .information-divs > h3 {
+    @apply mb-[4px] text-[18px] font-black text-[#FFF];
+  }
+
+  .list-items {
+    @apply flex items-center justify-center gap-[6px];
+  }
+  .information-divs > a,
+  .list-items > a {
+    @apply text-[16px] font-normal text-[#FFF];
+  }
+}
