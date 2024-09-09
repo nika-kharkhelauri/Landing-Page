@@ -9,7 +9,6 @@ module.exports = {
         nino: "BPG Nino Mtavruli Bold",
       },
       backgroundImage: {
-        "hero-pattern": "url('/images/FRAME.PNG')",
         expertContainerBackground: "url('./images/background.png')",
         rectangleBackground: "url('./images/Rectangle-background.png')",
         footerBackgroundImage: "url('./images/footer-background.png')",
